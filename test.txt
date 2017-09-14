@@ -1,0 +1,14 @@
+int main(){
+	int var;
+	int variable=10;
+	double abc = 0;
+	float jdhfs f;
+	f;
+	printf(" Hello World");
+	return 0;
+}
+
+Z
+z
+X
+x
