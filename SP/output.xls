@@ -1,6 +1,6 @@
 LOCATION 	 MACHINE 	 CODE 	 LABEL 	  OPCODE  	  OPERAND
 
- 1000 	  	  	 JASASSM 	 START 	 1000
+ 1000 	  	  	 ASASSM 	 START 	 1000
  1003 	 02 	  	  	 STA 	 
  1006 	 01 	 1009 	 LOOP1 	 JMP 	 LOOP2
  1009 	 00 	  	  	 LDA 	 
