@@ -1,0 +1,11 @@
+LOCATION 	 MACHINE 	 CODE 	 LABEL 	  OPCODE  	  OPERAND
+
+ 1000 	  	  	 JASASSM 	 START 	 1000
+ 1003 	 02 	  	  	 STA 	 
+ 1006 	 01 	 1009 	 LOOP1 	 JMP 	 LOOP2
+ 1009 	 00 	  	  	 LDA 	 
+ 1012 	 01 	 1003 	 LOOP2 	 JMP 	 LOOP1
+ 1016 	 POT Opcode 	  	  	 RESB 	 04
+ 1019 	 00 	  	  	 LDA 	 
+ 1022 	 02 	  	  	 STA 	 
+ 1025 	 01 	 1003 	  	 JMP 	 LOOP1
